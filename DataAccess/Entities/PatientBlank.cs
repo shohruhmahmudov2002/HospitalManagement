@@ -10,4 +10,5 @@ public class PatientBlank
     public int SevereScore { get; set; }
 
     public Patient Patient { get; set; }
+    public string something { get; set; }
 }
