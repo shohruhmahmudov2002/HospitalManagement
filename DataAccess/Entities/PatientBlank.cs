@@ -12,10 +12,6 @@ public class PatientBlank
     public Patient Patient { get; set; }
 
 
-
-
-
-
-
     public string something2 { get; set; }
+    public string something { get; set; }
 }
