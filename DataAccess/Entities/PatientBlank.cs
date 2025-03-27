@@ -1,4 +1,6 @@
-﻿namespace HospitalManagement.DataAccess.Entities;
+﻿using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
+
+namespace HospitalManagement.DataAccess.Entities;
 
 public class PatientBlank
 {
@@ -15,7 +17,7 @@ public class PatientBlank
 
 
 
-
-
     public string something2 { get; set; }
+
+    public string something4 { get; set; }
 }
